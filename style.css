@@ -234,15 +234,19 @@ footer a {
 }
 
 @media (max-width: 768px) {
+    body{
+        padding-top: 200px;
+    }
     .primeira-div {
-        flex-direction: row !important;
-        text-align: left !important;
+        flex-direction: column;
+        text-align: center;
     }
 
     .primeiro-texto h2 {
-        font-size: 82px !important;
+        font-size: 42px;
     }
-} 
+}
+
 
 .chamada-final p {
     font-family: 'Playfair Display', serif;
@@ -478,4 +482,5 @@ footer a {
     margin-top: 35px;
     padding: 20px 55px;
     font-size: 18px;
+
 }
