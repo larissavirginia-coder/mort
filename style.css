@@ -233,32 +233,12 @@ footer a {
     padding: 120px 45px 45px 45px;
 }
 
-@media (max-width: 768px) {
-    body{
-        padding-top: 200px;
-    }
-    .primeira-div {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .primeiro-texto h2 {
-        font-size: 42px;
-    }
-}
-
-
 .chamada-final p {
     font-family: 'Playfair Display', serif;
     font-size: 42px;
     line-height: 1.2;
 }
 
-@media (max-width: 768px) {
-    .chamada-final p {
-        font-size: 26px;
-    }
-}
 
 .card-livro {
     width: 560px;
@@ -484,3 +464,4 @@ footer a {
     font-size: 18px;
 
 }
+
